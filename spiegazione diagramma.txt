@@ -1,0 +1,3 @@
+correlazione tra utente e prestito è un one to many perchè un utente può avere vari prestiti
+correlazione tra prestito e catalogo è un many to one perchè tanti prestiti possono avere lo stesso libro
+le entità catalogo, libro e rivista sono uniti in un'unica table
