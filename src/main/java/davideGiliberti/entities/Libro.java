@@ -2,10 +2,8 @@ package davideGiliberti.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "libro")
 public class Libro extends Catalogo {
     @Column(name = "autore")
     private String autore;
